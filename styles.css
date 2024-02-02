@@ -1,0 +1,65 @@
+
+body{
+    padding: 5%;
+}
+#mortgageCalculator{
+    box-shadow: 1px 1px 5px 1px black;
+    padding: 20px;
+    overflow: hidden;
+    max-width: 90%;
+    text-align: center;
+    border-radius: 5px;
+}
+/**/
+.calculator {
+    max-width: 80%;
+    max-height:300px;
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 1px 1px 5px 1px black;
+text-align: center;
+}
+input{
+ margin-top: 5px;
+ padding: 6px;
+}
+input[type="number"],
+button {
+display: block;
+width: 100%;
+margin-bottom: 15px;
+}
+
+#calculate-btn {
+    background-color: rgb(72, 201, 63);
+color: #fff;
+border: none;
+padding: 10px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+#calculate-btn:hover {
+    background-color: rgb(36, 162, 55);
+}
+#mortgageCalculatorbtn{
+ color: #fff;
+border: none;
+padding: 10px;
+cursor: pointer;
+background-color: rgb(218, 88, 65);
+border-radius: 5px;
+}
+#mortgageCalculatorbtn:hover{
+    background-color: rgb(202, 50, 20);
+}
+label{
+font-size: large;
+font-weight: 600;
+}
+h2{
+ color: rgb(31, 158, 116);
+ text-shadow:1px 0px 2px black;
+}

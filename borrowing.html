@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--Calculate Borrowing Power-->
+    <div class="calculator">
+      <h2>Borrowing Power Calculator</h2>
+        <label for="income">Monthly Income:</label>
+        <p id="err1" hidden style="color: red; font-size: small; text-align: start;" >Enter your monthly income ?</p>
+        <input required type="number" id="income" placeholder="Enter your monthly income">
+          <label for="expenses">Monthly Expenses:</label>
+          <p id="err2" hidden style="color: red; font-size: small; text-align: start;" >Enter your monthly expenses ?</p>
+        <input required type="number" id="expenses" placeholder="Enter your monthly expenses">
+      
+        <!--f Add more input fields for other variables -->
+      
+        <button  id="calculate-btn">Calculate Borrowing Power</button>
+        <a href="./index.html" style="text-decoration: none;"  ><button id="mortgageCalculatorbtn" >Go On Mortgage Repayments Calculator</button></a> 
+        <div id="result" style="font-size: large; font-family: Georgia, 'Times New Roman', Times, serif; " ></div>
+      </div>
+
+      <!---->
+      <script type="text/javascript" src="borrowing.js" ></script>
+
+</body>
+</html>
